@@ -70,8 +70,8 @@ public class Ablak extends JFrame {
         lb_otos.setBounds(180,110,300,25);
         lb_hatos= new JLabel();
         lb_hatos.setBounds(180,150,300,25);
-       // text_hatos = new JTextField(d.HatodikFeladat(text_hatos.get));
-        text_hatos.setBounds(350,150,200,25);
+        text_hatos = new JTextField(20);
+        text_hatos.setBounds(180,150,200,25);
 
         panel.add(btn_harmas);
         panel.add(lb_harmas);
@@ -81,7 +81,7 @@ public class Ablak extends JFrame {
         panel.add(lb_otos);
         panel.add(lb_hatos);
         panel.add(text_hatos);
-
+        panel.add(btn_hatos);
         this.setVisible(true);
 
     }
